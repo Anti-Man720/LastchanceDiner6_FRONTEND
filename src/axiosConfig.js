@@ -1,4 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 
 axios.defaults.baseURL =
-  process.env.NODE_ENV !== 'production' ? 'https://git.heroku.com/capstone-backend2.git' : '/';
+  process.env.NODE_ENV !== "production"
+    ? "https://capstone-backend2-70ebab3d848f.herokuapp.com/"
+    : "/";
